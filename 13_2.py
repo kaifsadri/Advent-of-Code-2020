@@ -4,6 +4,7 @@ Busses.sort(key=lambda x: x[1], reverse=True)
 # print(Busses)
 
 # Bus frequencies are all prime numbers, so there is no overlap
+# this is an implementation of a simplified sieving Chinese Remainder Theorem
 
 TimeNow = 0
 cycle = 1
